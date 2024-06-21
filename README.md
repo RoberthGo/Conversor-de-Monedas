@@ -24,4 +24,4 @@ Para ejecutar el programa, necesitas las siguientes tecnologías utilizadas dura
 * **Roberto Gordillo Herrera** - [Roberth_G](https://github.com/RoberthGo)
 
 ## Licencia 📄
-Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE.md](LICENSE.md) para más detalles
+Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) para más detalles
