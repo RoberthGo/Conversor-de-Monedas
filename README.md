@@ -1,5 +1,6 @@
 # Conversor de Monedas
 Esta es una aplicación de consola creada en Java que permite convertir entre distintos tipos de monedas gracias al consumo de la API [ExchangeRate.](https://www.exchangerate-api.com/) Esto permite utilizar el cambio de moneda más actual en el mercado. Además, la aplicación guarda un historial de las conversiones realizadas en un archivo.
+
 ![Java JDK](https://img.shields.io/badge/Java_JDK-v17.0-blue)
 ![IDE](https://img.shields.io/badge/IDE-Intellij_IDEA-blue)
 ![GSON](https://img.shields.io/badge/GSON-V2.11.0-blue)
