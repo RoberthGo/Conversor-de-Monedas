@@ -11,7 +11,7 @@ Para ejecutar el programa, necesitas las siguientes tecnologías utilizadas dura
 * Java JDK: Debes tener instalada la versión 17 o superior del Java Development Kit. Puedes descargarlo [aquí](https://www.oracle.com/java/technologies/downloads/#java17).
   
 * Biblioteca Gson 2.11.0 en adelante. Descarga [aquí](https://mvnrepository.com/artifact/com.google.code.gson/gson/2.11.0). (El archivo debe tener la extensión ".jar".) </br>
-  \t Si usas IntelliJ IDEA, debes hacer clic derecho sobre la carpeta raíz del proyecto y, en el apartado "Open Modules Settings", importas la biblioteca.
+  <\t> Si usas IntelliJ IDEA, debes hacer clic derecho sobre la carpeta raíz del proyecto y, en el apartado "Open Modules Settings", importas la biblioteca.
   
 * Clave Api: Puedes obtenerla registrándote en [ExchangeRate.](https://www.exchangerate-api.com/) Después de registrarte, recibirás un correo para activar tu clave API. </br>
   \t Luego, colócala en el archivo [Main.java](src/Main.java) en la línea 15, cambiarás "API_KEY" por tu clave API (dejándola entre comillas). </br>
