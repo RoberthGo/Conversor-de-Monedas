@@ -21,7 +21,7 @@ Para ejecutar el programa, necesitas las siguientes tecnologías utilizadas dura
   Yo recomendaría su uso, pues fue el IDE con el cual se creó la aplicación y facilita agregar la Biblioteca Gson.
    
 ## Autor ✒️
-* **Roberto Gordillo Herrera** - *Desarrolador* - [Roberth_G](https://github.com/RoberthGo)
+* **Roberto Gordillo Herrera** - [Roberth_G](https://github.com/RoberthGo)
 
 ## Licencia 📄
 Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE.md](LICENSE.md) para más detalles
