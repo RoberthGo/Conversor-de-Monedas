@@ -1,75 +1,25 @@
 # Conversor de Monedas
-Es una aplicación en consola creada en java  la cual permite convertir  entre distintos tipos de monedas gracias al consumo de la api de  [exchangerate](https://www.exchangerate-api.com/) y guardar un historial sobre las conversiones creadas
-
+Esta es una aplicación de consola creada en Java que permite convertir entre distintos tipos de monedas gracias al consumo de la API [ExchangeRate.](https://www.exchangerate-api.com/) Esto permite utilizar el cambio de moneda más actual en el mercado. Además, la aplicación guarda un historial de las conversiones realizadas en un archivo.
+![Java JDK](https://img.shields.io/badge/Java_JDK-v17.0-blue)
+![IDE](https://img.shields.io/badge/IDE-Intellij_IDEA-blue)
+![GSON](https://img.shields.io/badge/GSON-V2.11.0-blue)
 
 ### Pre-requisitos 📋
-
-_¿Que cosas necesitas para instalar el software y como instalarlas?_
-
-```
-Debes tener el JDK 17 de java o una version superior instalado en tu maquina
-Necesitas descargar la libreria [GSON] (https://mvnrepository.com/artifact/com.google.code.gson/gson/2.11.0) y colocarla en el proyecto al mismo nivel que  la carpeta SRC
-Debes generar tu api key de [exchangerate](https://www.exchangerate-api.com/) y colocarla en el proyecto
-ESta se debe colocar en el archivo [Main](src/Main.java) en la linea 15  donde cambiaras "API_KEY" por tu api key , dejandolo entre parentesis por ejemplo si tu clave es 1234
-deberia mirarse como  ConnectionApi connection = new ConnectionApi("1234");
-```
-
-### Instalación 🔧
-
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
-## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
+Para ejecutar el programa, necesitas las siguientes tecnologías utilizadas durante su desarrollo:
+* Java JDK: Debes tener instalada la versión 17 o superior del Java Development Kit. Puedes descargarlo [aquí](https://www.oracle.com/java/technologies/downloads/#java17).
+  
+* Biblioteca Gson 2.11.0 en adelante. Descarga [aquí](https://mvnrepository.com/artifact/com.google.code.gson/gson/2.11.0). (El archivo debe tener la extensión ".jar".)
+  Si usas IntelliJ IDEA, debes hacer clic derecho sobre la carpeta raíz del proyecto y, en el apartado "Open Modules Settings", importas la biblioteca.
+  
+* Clave Api: Puedes obtenerla registrándote en [ExchangeRate.](https://www.exchangerate-api.com/) Después de registrarte, recibirás un correo para activar tu clave API.
+  Luego, colócala en el archivo [Main.java](src/Main.java) en la línea 15, cambiarás "API_KEY" por tu clave API (dejándola entre comillas). Por ejemplo, si tu clave es 1234, debería verse así: 
+  debes colocarla en el archivo  en la linea 15  donde cambiaras "API_KEY" por tu clave api, dejandola entre comillas por ejemplo si tu clave es 1234
+  ConnectionApi connection = new ConnectionApi("1234");
+    
+* IDE IntelliJ IDEA: Descarga [aquí](https://www.jetbrains.com/idea/)
+  Yo recomendaría su uso, pues fue el IDE con el cual se creó la aplicación y facilita agregar la Biblioteca Gson.
+   
+## Autor ✒️
 * **Roberto Gordillo Herrera** - *Desarrolador* - [Roberth_G](https://github.com/RoberthGo)
 
 ## Licencia 📄
