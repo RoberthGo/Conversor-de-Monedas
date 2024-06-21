@@ -11,14 +11,14 @@ Para ejecutar el programa, necesitas las siguientes tecnologías utilizadas dura
 * Java JDK: Debes tener instalada la versión 17 o superior del Java Development Kit. Puedes descargarlo [aquí](https://www.oracle.com/java/technologies/downloads/#java17).
   
 * Biblioteca Gson 2.11.0 en adelante. Descarga [aquí](https://mvnrepository.com/artifact/com.google.code.gson/gson/2.11.0). (El archivo debe tener la extensión ".jar".) </br>
-    Si usas IntelliJ IDEA, debes hacer clic derecho sobre la carpeta raíz del proyecto y, en el apartado "Open Modules Settings", importas la biblioteca.
+  \t Si usas IntelliJ IDEA, debes hacer clic derecho sobre la carpeta raíz del proyecto y, en el apartado "Open Modules Settings", importas la biblioteca.
   
 * Clave Api: Puedes obtenerla registrándote en [ExchangeRate.](https://www.exchangerate-api.com/) Después de registrarte, recibirás un correo para activar tu clave API. </br>
-    Luego, colócala en el archivo [Main.java](src/Main.java) en la línea 15, cambiarás "API_KEY" por tu clave API (dejándola entre comillas). Por ejemplo, si tu clave es 1234, debería verse así:<br> 
-    ConnectionApi connection = new ConnectionApi("1234");
+  \t Luego, colócala en el archivo [Main.java](src/Main.java) en la línea 15, cambiarás "API_KEY" por tu clave API (dejándola entre comillas). </br>
+  \t Por ejemplo, si tu clave es 1234, debería verse así: ConnectionApi connection = new ConnectionApi("1234");
     
 * IDE IntelliJ IDEA: Descarga [aquí](https://www.jetbrains.com/idea/) </br>
-    Yo recomendaría su uso, pues fue el IDE con el cual se creó la aplicación y facilita agregar la Biblioteca Gson.
+  \t Yo recomendaría su uso, pues fue el IDE con el cual se creó la aplicación y facilita agregar la Biblioteca Gson.
    
 ## Autor ✒️
 * **Roberto Gordillo Herrera** - [Roberth_G](https://github.com/RoberthGo)
