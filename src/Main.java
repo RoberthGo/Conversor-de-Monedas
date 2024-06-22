@@ -2,6 +2,7 @@ import com.google.gson.Gson;
 import functions.*;
 import models.Coins;
 import models.InformationConversion;
+
 import java.math.BigDecimal;
 import java.util.InputMismatchException;
 import java.util.Scanner;
