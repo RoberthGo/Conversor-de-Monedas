@@ -12,7 +12,7 @@ public class Main {
             Adentro del constructor de ConnectionApi debes cambiar el texto API_KEY por tu propia clave de API
             para poder hacer las peticiones a la API de exchangerate-api.com
         */
-        ConnectionApi connection = new ConnectionApi("049176778cc53184a855484a");
+        ConnectionApi connection = new ConnectionApi("API_KEY");
         ConversionHistory history = new ConversionHistory();
         Gson gson = new Gson();
         Scanner input = new Scanner(System.in);
